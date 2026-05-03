@@ -5,10 +5,10 @@ Welcome to the unofficial fan translation repository for **Nine Revolutions Star
 ## About the Novel
 
 -   **Original Title:** 九转星辰诀
--   **Author:** Wode Goupi Gaoyao (我的狗皮膏药)
+-   **Author:** My Dog-Skin Plaster (我的狗皮膏药)
 -   **Genre:** Action, Eastern Fantasy, Martial Arts, Reincarnation, Xuanhuan
 -   **Chapters:** 3,793 (Completed)
--   **Original Source:** [[17k.com]](https://www.17k.com/book/3411307.html)
+-   **Original Source:** [[Qidian]](https://www.qidian.com/book/1033472618/) | [[Qimao]](https://www.qimao.com/shuku/202636/) | [[Shuqi]](https://www.shuqi.com/book/8509569.html)
 
 ### Synopsis
 
@@ -66,9 +66,18 @@ If you have a suggestion for a term, you can [open an Issue](../../issues) to di
 
 ---
 
+## For Translators and Editors
+
+If you want to translate or edit a chapter:
+
+-   [**TRANSLATING.md**](./TRANSLATING.md) — step-by-step workflow for producing a draft from the raw Chinese.
+-   [**EDITING.md**](./EDITING.md) — how to clean up an AI-translated draft so it reads like a professional English novel without losing the original meaning. Includes the project's style sheet.
+
+---
+
 ## Disclaimer
 
-This is a **fan translation** project. All copyrights for _Nine Revolutions Star Technique_ belong to the original author, **Wode Goupi Gaoyao (我的狗皮膏药)**. The translation is done by fans for fans and is not for any commercial purpose.
+This is a **fan translation** project. All copyrights for _Nine Revolutions Star Technique_ belong to the original author, **My Dog-Skin Plaster (我的狗皮膏药)**. The translation is done by fans for fans and is not for any commercial purpose.
 
 If you enjoy the novel, please support the author by purchasing the original work on their official platform.
 
