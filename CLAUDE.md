@@ -24,6 +24,28 @@ Do not skip the save steps (1 and 3). Both the raw Chinese and the final transla
 
 Do not paste the contents of `assets/translation_prompt.md`, `assets/glossary.json`, or `assets/glossary_prompt.txt` into chat — read them from disk on demand.
 
+## How to present editing-pass results to the user
+
+When you finish the three editing passes on a chapter and are about to apply changes, present the proposed edits to the user as a markdown table with these columns:
+
+| # | Line | Issue | Fix | Reasoning |
+|---|---|---|---|---|
+
+- **#** — sequential number (1, 2, 3…) for ease of reference.
+- **Line** — the line number in the translation file (e.g., `L29`).
+- **Issue** — the specific problem in one short clause (e.g., "merged dialogue + tag," "intensifier inflation," "first-person internal thought used third-person").
+- **Fix** — the exact change you will make. Quote the new wording when feasible.
+- **Reasoning** — *why* this fix over alternatives, in 1-3 sentences. Cite the source phrase (with the Chinese in parentheses if relevant), the editing-pass principle from `EDITING.md`, and any judgment call you made (e.g., "kept colloquial register because the Great Sage is a Sun Wukong-coded character"). The user reads this column to verify your taste, not just your accuracy.
+
+The Reasoning column is mandatory for every chapter's diff table from chapter 3 onwards. Without it, the user cannot tell whether you're applying the right principle or just pattern-matching. If a fix is genuinely trivial (e.g., a typo correction), say so explicitly: "Reasoning: typo, no judgment call."
+
+After the table, separately list:
+- Any new glossary entries introduced in the chapter.
+- Any new style decisions you're proposing to add to `EDITING.md`.
+- Anything you noticed but are NOT fixing, with a one-line explanation.
+
+Apply the edits only after presenting the table.
+
 ## Project conventions
 
 - **Author name:** "My Dog-Skin Plaster (我的狗皮膏药)" — use this exact rendering wherever the author is named (README, LICENSE, anywhere). Do not pinyin-romanize the name as "Wode Goupi Gaoyao."

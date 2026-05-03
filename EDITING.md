@@ -250,6 +250,15 @@ Below are the project's standing style decisions. When you make a new judgment c
 -   Cultivation techniques: glossary translation; otherwise translate the meaning into evocative English (`Nine Revolutions Star Technique`).
 -   Honorifics: English equivalents — `Senior`, `Elder`, `Young Master`, `Patriarch`, `Senior Sister`. Capitalized when used as a title before a name (`Elder Wang`), lowercase when used generically (`an elder of the sect`).
 -   Family / clan / house: when the glossary names a group as `X Family` (e.g., `Su Family`, `Wang Family`), use `Family` consistently for that group. Do not switch to `clan` or `house` mid-chapter — those words have different connotations in English and create the impression of distinct entities. If a generic reference is needed and `Family` would echo awkwardly, prefer dropping the noun (`a puppet of the Wang Family`) over substituting a synonym.
+
+### English economy
+
+Chinese readily uses parallel constructions, list-style elaborations, and explanatory appositions that translate as redundancy in English. Trust the reader and the surrounding context. The rule of thumb: if a fact, name, or descriptor was just established in the previous sentence or paragraph, do not restate it in the next.
+
+-   **Don't re-name characters within close proximity.** If Wang Lang has just been named, the next paragraph should use a pronoun, role (`Patriarch Wang`), or relational shorthand (`father and daughter`). Source: 我要苏阳这个人以及名字，还有尸骸，永远都消失 — literally "I want this person Su Yang, his name, his remains, gone forever." English: "I want every trace of his existence gone forever." (Su Yang was named in the prior sentence; the listed items synthesize cleanly into one phrase.)
+-   **Drop appositional naming when the relationship has been established.** Source frequently writes `王朗和王依依，这一对父女` ("Wang Lang and Wang Yiyi, this pair of father-and-daughter"). In English, after both characters have been named earlier in the scene, prefer `Both father and daughter…` — naming + apposition is double-billing.
+-   **Prefer terse English over elaborate description when the visual context already establishes meaning.** "Look at him" beats "Look at the state of him" once the reader has been shown his ravaged condition. The longer phrase is correct, just unnecessary.
+-   **One scope of redundancy at a time.** This rule does not authorize cutting plot details, merging paragraphs, or eliminating sentences from the source. Only the within-sentence and within-adjacent-paragraph re-statement of already-known information.
 -   Cultivation-rank capitalization: capitalize when it functions as a proper title or named realm (`Foundation Building stage`, `Spirit Severing realm`). Lowercase generic words (`his cultivation`, `the realm above`).
 
 ### Numbers
