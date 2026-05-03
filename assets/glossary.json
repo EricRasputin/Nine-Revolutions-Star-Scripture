@@ -208,6 +208,14 @@
         "file": 1
     },
     {
+        "en": "expert",
+        "cn": "高手",
+        "pinyin": "gāoshǒu",
+        "type": "Concept/Term",
+        "gender": null,
+        "file": 1
+    },
+    {
         "en": "Soul-Suppressing Iron Chains",
         "cn": "镇魂铁锁",
         "pinyin": "Zhènhún Tiěsuǒ",
