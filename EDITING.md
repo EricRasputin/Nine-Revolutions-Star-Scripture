@@ -334,6 +334,16 @@ GitHub renders these as numbered footnotes with backlinks — the reader clicks 
 -   More than 2–3 per chapter on average. If a chapter would need five, condense the closely-related ones into a single combined note, or move a recurring item to the project glossary.
 -   Modern profanity sanitization, em-dash decisions, paragraph splits — these are editor concerns, not reader concerns.
 -   Content the prose already explains (the AI sometimes spells out a concept in-text and a TL note then becomes redundant).
+-   **Common terms whose English translation already lands.** A generic insult that reads as an insult in English (e.g., "lap dog" for 走狗), a macho swagger that reads as macho swagger from the surrounding tone (e.g., 老子 contextually obvious from "Kill him!"), modern Chinese slang already familiar from internet culture — these don't need notes. The reader picks them up.
+
+### Calibrating the bar
+
+A TL note should add genuine reader value *beyond* what the English prose already carries. The useful test:
+
+-   If a reader who doesn't know Chinese would feel the prose is **missing something** without the note, add it.
+-   If they'd find the note an interesting tangent but the prose works fine without it, skip.
+
+The bar is "the English alone leaves a gap" — not "the Chinese has more depth." Every Chinese term has more depth than its English translation; that doesn't mean every term gets a note. Reserve notes for cases where the gap *matters* to the scene (the 休 verb at the climax of Ch5, the Sun Wukong allusion that reframes the Great Sage's whole character, the patriarchal 本家主 that defines Wang Lang's voice).
 
 ### Footnote numbering
 
