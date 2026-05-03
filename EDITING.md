@@ -249,6 +249,7 @@ Below are the project's standing style decisions. When you make a new judgment c
 -   Place names and sects: translated unless the glossary overrides — `Azure Cloud Sect`, `Heavenly Wind City`.
 -   Cultivation techniques: glossary translation; otherwise translate the meaning into evocative English (`Nine Revolutions Star Technique`).
 -   Honorifics: English equivalents — `Senior`, `Elder`, `Young Master`, `Patriarch`, `Senior Sister`. Capitalized when used as a title before a name (`Elder Wang`), lowercase when used generically (`an elder of the sect`).
+-   Family / clan / house: when the glossary names a group as `X Family` (e.g., `Su Family`, `Wang Family`), use `Family` consistently for that group. Do not switch to `clan` or `house` mid-chapter — those words have different connotations in English and create the impression of distinct entities. If a generic reference is needed and `Family` would echo awkwardly, prefer dropping the noun (`a puppet of the Wang Family`) over substituting a synonym.
 -   Cultivation-rank capitalization: capitalize when it functions as a proper title or named realm (`Foundation Building stage`, `Spirit Severing realm`). Lowercase generic words (`his cultivation`, `the realm above`).
 
 ### Numbers
