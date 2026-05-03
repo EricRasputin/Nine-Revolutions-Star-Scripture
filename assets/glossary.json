@@ -374,5 +374,13 @@
         "type": "Technique/Art/Method/Incantation/Spell",
         "gender": null,
         "file": 7
+    },
+    {
+        "en": "Purple Lightning Mad Lion",
+        "cn": "紫电狂狮",
+        "pinyin": "Zǐ Diàn Kuáng Shī",
+        "type": "Creature",
+        "gender": null,
+        "file": 8
     }
 ]
