@@ -268,6 +268,18 @@ Chinese readily uses parallel constructions, list-style elaborations, and explan
 -   Cultivation realms and ranks: spell out (`Third Elder`, `the seventh realm`).
 -   Large round numbers idiomatic in Chinese (`万`, `亿`) translate to English equivalents: `ten thousand`, `a hundred million`. Don't render `三万` literally as `30000`.
 
+### Time units
+
+Classical Chinese time units don't map one-to-one to English clock time. Convert to literal English measure (no footnotes per the project's no-translator's-notes rule):
+
+-   `一个时辰` = **two hours**, not "an hour" or "the hour." A `时辰` is a fixed 2-hour block in classical reckoning.
+-   `半个时辰` = **one hour**.
+-   `一刻` = **fifteen minutes** (literally "one quarter").
+-   `一炷香` = roughly **half an hour** (the time for one incense stick to burn). Use "half an hour" unless the prose specifically wants the incense imagery.
+-   `半天` = **half a day**, but in idiomatic use often just means "a long while" — translate by ear.
+
+When in doubt, prefer the literal numeric measure ("two hours") over loose English idiom ("the hour"). Threats and deadlines in cultivation novels are often precise; halving or doubling the window changes the stakes.
+
 ### Formatting
 
 -   No bold in the body text.
