@@ -280,6 +280,8 @@ Classical Chinese time units don't map one-to-one to English clock time. Convert
 
 When in doubt, prefer the literal numeric measure ("two hours") over loose English idiom ("the hour"). Threats and deadlines in cultivation novels are often precise; halving or doubling the window changes the stakes.
 
+On first use of a unit in any chapter, consider adding a TL note (see Translator's Notes section below) so the reader can calibrate. Subsequent uses in the same chapter or in later chapters don't need to be re-noted.
+
 ### Formatting
 
 -   No bold in the body text.
@@ -289,13 +291,53 @@ When in doubt, prefer the literal numeric measure ("two hours") over loose Engli
 
 ### Things we do NOT do
 
--   No Chinese characters in the published chapter.
--   No tone marks on Pinyin.
--   No translator's notes or footnotes — work cultural concepts into the prose.
--   No "TL/N:" or "[note: ...]" interjections.
+-   No Chinese characters in the **body prose** (Chinese is allowed inside translator's notes — see below).
+-   No tone marks on Pinyin in the body prose (tone marks ARE used inside translator's notes for the original-Chinese gloss).
+-   No "TL/N:" or "[note: ...]" interjections in the prose itself. Use proper markdown footnotes (see Translator's Notes section below).
 -   No emoji.
 
 When you discover a recurring issue not covered above and you make a decision about it — add a line to the relevant section. The whole point of a style sheet is that the next chapter inherits the decision.
+
+---
+
+## Translator's Notes (TL Notes)
+
+Some Chinese-language and Chinese-cultural nuances don't survive translation into the prose itself. When a phrasing, character voice tic, idiom, or cultural reference would land richer for a reader who knows what's behind it, add a translator's note as a markdown footnote. This is a webnovel-translation convention readers actively appreciate — it lets the prose stay clean while the curious reader can dig into the original.
+
+### Format
+
+Use markdown footnote syntax:
+
+-   In the prose: append `[^N]` (where N is a sequential number per chapter) immediately after the relevant word or phrase.
+-   At the end of the chapter file (after the last paragraph, separated by `---`): `[^N]: definition text` — one definition per footnote, in order.
+
+GitHub renders these as numbered footnotes with backlinks — the reader clicks the marker to jump to the note and clicks back to return.
+
+### Style of the note itself
+
+-   Open with the original Chinese in parentheses, then pinyin **with tone marks** (TL notes are one of the few places we use tones): `本家主 (běn jiā zhǔ)`.
+-   Then a brief literal gloss in quotes: `literally "this family-head."`
+-   Then 1–3 sentences of cultural or linguistic context that helps the reader appreciate the original choice. Educational, not pedantic — the reader should finish the note feeling enriched, not lectured.
+
+### When to add a TL note
+
+-   **Pompous self-reference conventions.** `本家主` ("this patriarch"), `老夫` ("this old one"), `本座` ("this seat" / "this one"). Repeated formal third-person self-reference is intentional characterization in Chinese — flag it once per character so the reader recognizes the pattern.
+-   **Classical units of measure.** `时辰` = 2 hours, `里` ≈ 500 m, `丈` ≈ 3.3 m, `斤` ≈ 600 g. When the literal English measure sits naturally in the prose, a footnote on first use lets readers calibrate the original.
+-   **Chinese idioms that lose their imagery in translation.** `做牛做马` ("be ox and horse" — to serve devotedly), `画蛇添足` ("draw a snake, add legs" — over-elaboration), etc. Note the literal once so the picture behind the meaning surfaces.
+-   **Allusions to Chinese mythology, history, or Buddhist/Daoist concepts.** The Great Sage's connection to Sun Wukong (Journey to the West) is a perfect example — knowing that 大圣 invokes the Monkey King reframes the character's whole vibe.
+-   **Wordplay, dialect markers, or register shifts that the English can't carry.** Beijing slang like `你丫的`, mock-formal honorifics, etc.
+
+### When NOT to add a TL note
+
+-   Anything already in the glossary — don't duplicate.
+-   Translator's reasoning ("I chose X because the original Y means Z"). Notes are for the reader, not the editor's defense.
+-   More than 2–3 per chapter on average. If a chapter would need five, condense the closely-related ones into a single combined note, or move a recurring item to the project glossary.
+-   Modern profanity sanitization, em-dash decisions, paragraph splits — these are editor concerns, not reader concerns.
+-   Content the prose already explains (the AI sometimes spells out a concept in-text and a TL note then becomes redundant).
+
+### Footnote numbering
+
+Per-chapter sequential: each chapter restarts at `[^1]`. The numbers are local to the file, not project-wide. Don't try to make footnotes consecutive across chapters.
 
 ---
 
@@ -319,6 +361,7 @@ Run this checklist on every chapter before committing.
 -   [ ] Navigation block at the top, links to N-1 and N+1, both correct.
 -   [ ] Chapter heading present and matches the title in the glossary if listed.
 -   [ ] Read aloud once. No tongue-trips, no echoes, no sameness stretches.
+-   [ ] TL notes added for any first-use cultural references, classical units, pompous self-reference, or untranslatable idioms (1–3 per chapter; see Translator's Notes section).
 
 ---
 
