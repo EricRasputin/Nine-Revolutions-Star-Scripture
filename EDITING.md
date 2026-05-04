@@ -33,6 +33,8 @@ That means:
 -   When you change something, change the smallest amount needed. Replacing a single weak verb is almost always better than rewriting the whole sentence.
 -   When you are tempted to "improve" a description by adding a metaphor or sensory detail Chen Yi did not write — stop. That is co-authorship, not editing.
 
+**Webnovel register, not literary register.** This is a fantasy webnovel, not a literary novel. Readers want punchy, casual, vivid prose — not the sophisticated diction of a Western literary novel. When you face a choice between a clean punchy sentence and a more elegant compressed one, pick punchy. Cultivation novels live or die on energy. Compression, semicolon-stitching, and ornate participial constructions all read as the editor showing off — exactly the thing the previous bullets warn against.
+
 A useful test: if you removed your edit and showed the before/after to a reader of the original Chinese, would they say you got closer to the source or further from it? If "further," roll it back.
 
 ---
@@ -217,6 +219,24 @@ Restraint: if the raw doesn't have the detail, don't add it. The line is "make t
 -   Tag verbs: prefer "said" / "asked" / "replied" for most lines. Reach for "snapped," "muttered," "whispered," "snarled" when the manner genuinely matters. Don't reach for "ejaculated," "interjected," "expostulated" — these draw attention to themselves and pull the reader out.
 -   Cultivation-world dialogue tends toward formal register. Watch for AI dropping in modern colloquialisms ("Yeah, right," "No way, dude," "OK"). Replace with period-appropriate equivalents.
 
+#### 2n. Semicolon overuse
+
+AI translations love semicolons because they preserve a Chinese comma without committing to a period. The result reads as overly formal — webnovel readers don't want to parse comma-splice substitutes. Default to period-splits over semicolons.
+
+-   "Damn it!" Su Yang spat, qi bursting from him; gripping his staff, he struck back. → "Damn it!" Su Yang spat, qi bursting from him. He gripped his staff and struck back.
+-   He flickered back at once; in that same heartbeat the earth shook. → He flickered back at once. In that same heartbeat, the earth shook.
+
+Reserve semicolons for cases where the two clauses are tightly bound (parallel structure, immediate cause-effect) and a period would feel choppy. If you find more than one or two semicolons in a chapter, you are over-using them.
+
+#### 2o. Participial vs explicit connector for simultaneous action
+
+When two actions happen at the same time, the AI defaults to a participial phrase: "He flung the staff, the Battle Sage Art igniting within him." This is grammatical but reads as a literary style flag. Use a temporal connector (`as`, `while`, `just as`) instead.
+
+-   "He flung the staff, the Battle Sage Art igniting within him." → "He flung the staff as the Battle Sage Art ignited within him."
+-   "Su Yang stared at the attack, his expression grim, the imagery surfacing in his mind." → "Su Yang stared grimly at the attack as the imagery surfaced in his mind."
+
+The participial form isn't banned — sometimes it's the cleanest option for a brief modifying phrase. But when the participial introduces a full clause-equivalent, prefer the explicit connector. Reading aloud is the test: if the participial makes the sentence stack-trip, it's the wrong tool.
+
 ### Pass 3 — Voice and Rhythm (read aloud)
 
 Now read the chapter top to bottom, aloud or sub-vocalized. This pass catches:
@@ -259,6 +279,7 @@ Below are the project's standing style decisions. When you make a new judgment c
 -   Honorifics: English equivalents — `Senior`, `Elder`, `Young Master`, `Patriarch`, `Senior Sister`. Capitalized when used as a title before a name (`Elder Wang`), lowercase when used generically (`an elder of the sect`).
 -   Family / clan / house: when the glossary names a group as `X Family` (e.g., `Su Family`, `Wang Family`), use `Family` consistently for that group. Do not switch to `clan` or `house` mid-chapter — those words have different connotations in English and create the impression of distinct entities. If a generic reference is needed and `Family` would echo awkwardly, prefer dropping the noun (`a puppet of the Wang Family`) over substituting a synonym.
 -   Beast/cultivator ranks: `品` renders as `rank-N` (`rank-four demonic beast`, `rank-six beast`). Established by chapters 2 and 6. Don't introduce `grade` or `tier` for the same concept.
+-   **Possessives for established items.** When a character has been using or holding a specific item across the chapter (a known staff, a known vial, a known sword), use the possessive (`his staff`, `her vial`) rather than the definite article (`the staff`). The article reads as if the item is generic; the possessive cues that it's the character's known belonging. AI translators default to `the` because Chinese 长棍 / 玉瓶 / 长剑 don't morphologically mark possession, but English convention does. Especially watch the second and third reference — the first might justifiably be `the staff` (introducing a salient prop), but by the third reference it should be `his staff`.
 
 ### Aura and presence terms
 
@@ -273,6 +294,18 @@ Chinese xianxia stacks several closely-related terms for "aura/presence" that th
 ### Imagery word echo (the "lightning-quick" trap)
 
 When a chapter introduces a beast or element with `lightning`, `thunder`, `fire`, `ice`, `wind`, or `blood` in its name, scan the rest of the chapter for that word used as an unrelated metaphor and replace it. `Lightning-quick reflexes` three paragraphs before a `Purple Lightning Mad Lion` appears reads as if the prose is foreshadowing a connection that doesn't exist. Substitutes: `instant`, `razor-sharp`, `in a flash`, `lightning` → `electric` (when the meaning is "energetic," not "fast").
+
+### Specific Chinese-English term mappings
+
+Some Chinese words have a literal rendering and an idiomatic rendering, and the AI tends to pick the literal one when the idiomatic one is what readers expect. The project's settled choices:
+
+-   **虚空** → `the void`, not `empty air`. Xianxia magic tears space itself; "empty air" is too grounded for the register.
+-   **落空** (a strike landing on nothing, missing) → `met nothing` / `whiffed` / `swung at nothing`, not `met empty air`. The idiom is "the strike missed," not "the strike found air."
+-   **闪电之声** → `the snap of lightning` / `the crackle of electricity` / `snapping and crackling with lightning`. The literal "sound of lightning" is misleading: lightning bolts make a close-up snap/crackle from electrical discharge, not the distant rumble of thunder. Stay accurate to the physics.
+-   **人言** (when uttered by a beast) → `human tongue` / `human speech`, **without article**. "Spoke in *a* human tongue" reads as if the beast picked one of several human languages. The Chinese 人言 is a category ("human-style speech"), not a specific language. Drop the article.
+-   **肉体碰撞** → `strike for strike` / `clash head-on` / `meet fist to claw`, not `body-to-body`. The literal "body-to-body" reads clinical; the idiom is about exchanging blows in physical combat, not bodies touching.
+
+When you discover a recurring AI-default mistranslation that has a settled idiomatic equivalent, add a line here so the next chapter inherits the decision.
 
 ### English economy
 
