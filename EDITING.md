@@ -237,6 +237,17 @@ When two actions happen at the same time, the AI defaults to a participial phras
 
 The participial form isn't banned — sometimes it's the cleanest option for a brief modifying phrase. But when the participial introduces a full clause-equivalent, prefer the explicit connector. Reading aloud is the test: if the participial makes the sentence stack-trip, it's the wrong tool.
 
+#### 2p. Exclamation pile-ups
+
+Chinese web fiction freely uses 多重感叹号 (`！！`, `！！！`) for emphasis. AI translations preserve them literally. English convention is one `!` per sentence — pile-ups read as juvenile or melodramatic. Normalize to a single `!` everywhere: dialogue, internal monologue, sound effects, onomatopoeia, battle cries.
+
+-   "He sent the lion flying!!!" → "He sent the lion flying!"
+-   "Die!!!" → "Die!"
+-   "Hyaaaah!!!" → "Hyaaaah!"
+-   "yours truly isn't dead yet!!!" → "yours truly isn't dead yet!"
+
+The verb, the speaker's tone, and the surrounding context already carry the intensity. Stacking exclamation marks doesn't add force in English — it subtracts credibility.
+
 ### Pass 3 — Voice and Rhythm (read aloud)
 
 Now read the chapter top to bottom, aloud or sub-vocalized. This pass catches:
