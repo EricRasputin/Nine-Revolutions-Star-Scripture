@@ -390,5 +390,21 @@
         "type": "Technique/Art/Method/Incantation/Spell",
         "gender": null,
         "file": 9
+    },
+    {
+        "en": "Soul Contract",
+        "cn": "灵魂契约",
+        "pinyin": "Líng Hún Qì Yuē",
+        "type": "Concept/Term",
+        "gender": null,
+        "file": 11
+    },
+    {
+        "en": "essence blood",
+        "cn": "精血",
+        "pinyin": "jīng xuè",
+        "type": "Concept/Term",
+        "gender": null,
+        "file": 11
     }
 ]
