@@ -382,5 +382,13 @@
         "type": "Creature",
         "gender": null,
         "file": 8
+    },
+    {
+        "en": "Purple Lightning Laser Cannon",
+        "cn": "紫电镭射炮",
+        "pinyin": "Zǐ Diàn Léi Shè Pào",
+        "type": "Technique/Art/Method/Incantation/Spell",
+        "gender": null,
+        "file": 9
     }
 ]
