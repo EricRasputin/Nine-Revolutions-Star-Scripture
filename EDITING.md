@@ -347,6 +347,7 @@ Chinese readily uses parallel constructions, list-style elaborations, and explan
 -   **Prefer terse English over elaborate description when the visual context already establishes meaning.** "Look at him" beats "Look at the state of him" once the reader has been shown his ravaged condition. The longer phrase is correct, just unnecessary.
 -   **One scope of redundancy at a time.** This rule does not authorize cutting plot details, merging paragraphs, or eliminating sentences from the source. Only the within-sentence and within-adjacent-paragraph re-statement of already-known information.
 -   Cultivation-rank capitalization: capitalize when it functions as a proper title or named realm (`Foundation Building stage`, `Spirit Severing realm`). Lowercase generic words (`his cultivation`, `the realm above`).
+-   TCM anatomy lowercase: body-system terms borrowed from traditional Chinese medicine are common anatomy, not proper names. Lowercase: `eight extraordinary meridians` (奇经八脉), `meridians` (经脉), `dantian` (丹田), `five viscera and six bowels` (五脏六腑), `essence blood` (精血). Every cultivator has these — they aren't unique abilities or named systems. Reserve capitalization for true proper-noun techniques and named realms.
 
 ### Numbers
 
