@@ -406,5 +406,21 @@
         "type": "Concept/Term",
         "gender": null,
         "file": 11
+    },
+    {
+        "en": "Elder Bi",
+        "cn": "毕长老",
+        "pinyin": "Bì Zhǎnglǎo",
+        "type": "Person",
+        "gender": "Male",
+        "file": 12
+    },
+    {
+        "en": "Steward Dao",
+        "cn": "刀总管",
+        "pinyin": "Dāo Zǒngguǎn",
+        "type": "Person",
+        "gender": "Male",
+        "file": 12
     }
 ]
