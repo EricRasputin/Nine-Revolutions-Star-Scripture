@@ -318,6 +318,22 @@ Some Chinese words have a literal rendering and an idiomatic rendering, and the 
 
 When you discover a recurring AI-default mistranslation that has a settled idiomatic equivalent, add a line here so the next chapter inherits the decision.
 
+### Chinese narrative artifacts
+
+Chinese xianxia and webnovels use stock narrative tags that translate literally but mark the prose as obviously-translated. The reader should feel the author's voice, not the translation's footprint. We are translating for a Western audience — stay true to the author's intent, but if a phrasing reads as a Chinese-novel artifact when carried straight into English, restructure.
+
+Common offenders:
+
+-   **一人一兽 / 二人 / 三人** ("one human one beast," "two people," "three people") at sentence start → use a natural English subject (`the two of them`, `Su Yang and the lion`, or simply `they`). The species/count framing is a Chinese narrative convention; by this point in the scene English uses pronouns or names.
+-   **话落 / 话音刚落** (literally "the words fell" / "the voice had just fallen") → `with that`, `on those words`, `and then`. Never `as the words fell` — the Chinese is a transition marker, not a physical action. (Lightning bolts fall; words don't.)
+-   **大脑运转 / 脑筋转** ("brain turning/operating") → `mind working`, `wheels turning`, `thinking through`. Brains don't "turn" in English.
+-   **看着 X,** ("watching X,") at sentence start → restructure so the watcher is the subject of the main verb, not stranded in a participle that floats free of its referent.
+-   **两道身影 / 两道残影** ("two silhouettes," "two afterimages") in mid-action narration → use names or `the two of them` once identities are established for the reader.
+-   **甩几条街** ("thrown several streets behind") → `left miles behind`, `outpaced by a wide margin`. The "streets" / "blocks" image is internet-era Chinese slang that doesn't carry; the English equivalent is "miles."
+-   **铜铃般的双眸** ("eyes like bronze bells") — judgment call. Bronze bells is a culturally-specific image; English equivalents are `saucers`, `dinner plates`. Keep the Chinese image only when the cultural flavor is the point; otherwise prefer the English idiom.
+
+The test: would a reader of the English alone, with no Chinese context, find this opening or transition natural? If it reads as poetic-translated rather than poetic-English, restructure. The bar is "stays true to the author's intent" + "easy to read for a Western audience" — both, not either.
+
 ### English economy
 
 Chinese readily uses parallel constructions, list-style elaborations, and explanatory appositions that translate as redundancy in English. Trust the reader and the surrounding context. The rule of thumb: if a fact, name, or descriptor was just established in the previous sentence or paragraph, do not restate it in the next.
