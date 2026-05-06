@@ -470,5 +470,93 @@
         "type": "Group",
         "gender": null,
         "file": 15
+    },
+    {
+        "en": "Su Qiang",
+        "cn": "苏强",
+        "pinyin": "Sū Qiáng",
+        "type": "Person",
+        "gender": "Male",
+        "file": 16
+    },
+    {
+        "en": "Su Mo",
+        "cn": "苏默",
+        "pinyin": "Sū Mò",
+        "type": "Person",
+        "gender": "Male",
+        "file": 16
+    },
+    {
+        "en": "Su Chen",
+        "cn": "苏辰",
+        "pinyin": "Sū Chén",
+        "type": "Person",
+        "gender": "Male",
+        "file": 16
+    },
+    {
+        "en": "Wang Zixiang",
+        "cn": "王子祥",
+        "pinyin": "Wáng Zǐxiáng",
+        "type": "Person",
+        "gender": "Male",
+        "file": 16
+    },
+    {
+        "en": "General Yang",
+        "cn": "杨将军",
+        "pinyin": "Yáng Jiāngjūn",
+        "type": "Person",
+        "gender": "Male",
+        "file": 16
+    },
+    {
+        "en": "Li Shanshan",
+        "cn": "李珊珊",
+        "pinyin": "Lǐ Shānshān",
+        "type": "Person",
+        "gender": "Female",
+        "file": 16
+    },
+    {
+        "en": "Fierce Tiger Fist",
+        "cn": "猛虎拳",
+        "pinyin": "Měng Hǔ Quán",
+        "type": "Technique/Art/Method/Incantation/Spell",
+        "gender": null,
+        "file": 16
+    },
+    {
+        "en": "Extreme Yin Bloodline",
+        "cn": "极阴血脉",
+        "pinyin": "Jí Yīn Xuèmài",
+        "type": "Concept/Term",
+        "gender": null,
+        "file": 16
+    },
+    {
+        "en": "Asura",
+        "cn": "修罗",
+        "pinyin": "Xiūluó",
+        "type": "Concept/Term",
+        "gender": null,
+        "file": 16
+    },
+    {
+        "en": "Middle Province",
+        "cn": "中州",
+        "pinyin": "Zhōng Zhōu",
+        "type": "Place",
+        "gender": null,
+        "file": 16
+    },
+    {
+        "en": "Liang Manor",
+        "cn": "凉府",
+        "pinyin": "Liáng Fǔ",
+        "type": "Place",
+        "gender": null,
+        "file": 16
     }
 ]
