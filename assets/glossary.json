@@ -558,5 +558,45 @@
         "type": "Place",
         "gender": null,
         "file": 16
+    },
+    {
+        "en": "Su Lie",
+        "cn": "苏烈",
+        "pinyin": "Sū Liè",
+        "type": "Person",
+        "gender": "Male",
+        "file": 17
+    },
+    {
+        "en": "Lin Wanwan",
+        "cn": "林婉婉",
+        "pinyin": "Lín Wǎnwǎn",
+        "type": "Person",
+        "gender": "Female",
+        "file": 17
+    },
+    {
+        "en": "Black Wind Three Brothers",
+        "cn": "黑风三兄弟",
+        "pinyin": "Hēi Fēng Sān Xiōngdì",
+        "type": "Group",
+        "gender": null,
+        "file": 17
+    },
+    {
+        "en": "Three Yang Blazing Fire Palm",
+        "cn": "三阳烈火掌",
+        "pinyin": "Sān Yáng Liè Huǒ Zhǎng",
+        "type": "Technique/Art/Method/Incantation/Spell",
+        "gender": null,
+        "file": 17
+    },
+    {
+        "en": "Heaven-Gang Wild Bull Force",
+        "cn": "天罡莽牛劲",
+        "pinyin": "Tiān Gāng Mǎng Niú Jìn",
+        "type": "Technique/Art/Method/Incantation/Spell",
+        "gender": null,
+        "file": 17
     }
 ]
